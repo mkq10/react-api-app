@@ -28,23 +28,28 @@
 <body>
 
   <div class="wrapper bg-light my-4">
-    <div id="root">
 
-    </div>
 
 
     <div class="container  mb-4">
-      <center>
-        <h1 class="name"></h1>
-        <span class="temp">
-        </span>
-        <span class="description">
-        </span>
-      </center>
+      <div id="root">
+
+      </div>
+      <div class="d-flex align-items-center justify-content-center ">
+        <img src="weather.jpg" alt="">
+
+        <div class="content ml-3">
+          <h1 class="name"></h1>
+          <strong class="temp">
+          </strong>,
+          <span class="description">
+          </span>
+        </div>
+      </div>
     </div>
     <div class="form-group text-center">
-      <input type="text" name="city_name" value="Islamabad" class="form-control-lg city_name" placeholder="Enter City Name" aria-describedby="helpId">
-      <input type="submit" class="btn-lg btn-primary submitBtn" />
+      <input type="text" name="city_name" value="" class="form-control-lg city_name" placeholder="Enter City Name" aria-describedby="helpId">
+      <input type="submit" class="btn-lg btn-primary mb-4 submitBtn" />
     </div>
   </div>
   <!--

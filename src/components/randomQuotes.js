@@ -28,8 +28,11 @@ class RandomQuotes extends Component {
               <li>{item.address["street"]}</li>
             ))}
           </ul> */}
+          <h1 class="text-center mb-2">
+            React app that consumes data from Open Weather API.
+          </h1>
 
-          <div class="container bg-light">
+          <div class="container col-sm-9 bg-light my-2">
             <center>
               <q> {items["content"]}</q>
               <strong>
